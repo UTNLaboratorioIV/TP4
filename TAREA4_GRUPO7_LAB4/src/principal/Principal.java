@@ -85,6 +85,12 @@ public class Principal extends JFrame {
 		panel.add(btnEjercicio1, gbc_btnEjercicio1);
 		
 		JButton btnEjercicio2 = new JButton("Ejercicio 2");
+		btnEjercicio2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Ejercicio2 ventana2 = new Ejercicio2();
+				ventana2.setVisible(true);
+			}
+		});
 		GridBagConstraints gbc_btnEjercicio2 = new GridBagConstraints();
 		gbc_btnEjercicio2.fill = GridBagConstraints.BOTH;
 		gbc_btnEjercicio2.insets = new Insets(0, 0, 5, 0);

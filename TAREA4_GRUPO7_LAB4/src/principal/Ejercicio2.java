@@ -4,9 +4,6 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.BoxLayout;
-import java.awt.BorderLayout;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -14,18 +11,10 @@ import java.awt.SystemColor;
 import java.awt.Color;
 import javax.swing.UIManager;
 import java.awt.Font;
-import javax.swing.GroupLayout;
-import javax.swing.GroupLayout.Alignment;
-import java.awt.CardLayout;
-import java.awt.FlowLayout;
-import java.awt.GridLayout;
-//import org.eclipse.wb.swing.FocusTraversalOnArray;
-import java.awt.Component;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
 import javax.swing.JComboBox;
 import javax.swing.border.TitledBorder;
-import javax.swing.border.EtchedBorder;
 import javax.swing.border.LineBorder;
 
 public class Ejercicio2 extends JFrame {
@@ -226,7 +215,5 @@ public class Ejercicio2 extends JFrame {
 		panel_1.add(txtCondicion);
 		txtCondicion.setColumns(10);
 		
-	
-		//setFocusTraversalPolicy(new FocusTraversalOnArray(new Component[]{contentPane, btnCalcular, btnNuevo, btnSalir, panel, txtNota1, txtNota2, txtNota3, lblNota1, lblNota2, lblNota3, lblTPS, cboAprobadoDesp, panel_1, lblPromedio, lblCondicion, txtPromedio, txtCondicion}));
 	}
 }
